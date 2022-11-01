@@ -13,6 +13,10 @@ It is backward compatible with [dogechain v1.1.4](https://github.com/dogechain-l
 * *file size: 88.5GB*.
 * *sha1sum: d32185f0d2b1be1bef63b0629a8f4e6bc38343ba*.
 
+### BitTorrent
+
+[dogechain.2022-10-27T22_09_00-UTC.snapshot.torrent](https://snapshots.dogechain.dog/dogechain.2022-10-27T22_09_00-UTC.snapshot.torrent)
+
 ## Usage 
 
 Step 1: Preparation
@@ -22,13 +26,18 @@ Step 1: Preparation
 
 Step 2: Download
 - Copy the above snapshot URL.
+
 - Download: 
     - > wget -O dogechain.snapshot.zst "<paste snapshot URL here>"
 
+    - Or you can use `BitTorrent` for continuous download.
+
 - Download takes more than 1 hours,
+
     - You can run the following command in the background: 
     - > nohup wget -O dogechain.snapshot.zst "<paste snapshot URL here>" &
     - Or you can put it in a `tmux` background terminal session which can be detached and reattached later.
+
 - Check that its `sha1sum` is consistent with the official one.
     - > sha1sum dogechain.snapshot.zst > dogechain.snapshot.zst.sha1sum
     - It will take minutes to finish checksum calculating.

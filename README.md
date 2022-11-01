@@ -28,14 +28,14 @@ Step 2: Download
 - Copy the above snapshot URL.
 
 - Download: 
-    - > wget -O dogechain.snapshot.zst "<paste snapshot URL here>"
+    - > wget -O dogechain.snapshot.zst "paste_snapshot_URL_here"
 
     - Or you can use `BitTorrent` for continuous download.
 
 - Download takes more than 1 hours,
 
     - You can run the following command in the background: 
-    - > nohup wget -O dogechain.snapshot.zst "<paste snapshot URL here>" &
+    - > nohup wget -O dogechain.snapshot.zst "paste_snapshot_URL_here" &
     - Or you can put it in a `tmux` background terminal session which can be detached and reattached later.
 
 - Check that its `sha1sum` is consistent with the official one.
@@ -47,13 +47,13 @@ Step 3: Decompression
 
 - Decompression:
 
-    -  > zstd -d --long=31 dogechain.snapshot.zst -c | tar -xvf - -C <paste your target dir here>
+    -  > zstd -d --long=31 dogechain.snapshot.zst -c | tar -xvf - -C paste_your_target_dir_here
 - Decompression takes more than 10 minutes,
 
     - You can run the following command in the background: 
     - > mkdir -p <paste your target dir here>
         >
-        > nohup bash -c 'zstd -d --long=31 dogechain.snapshot.zst -c | tar -xvf - -C <paste your target dir here>' > dogechain-decompression.log 2>&1 &
+        > nohup bash -c 'zstd -d --long=31 dogechain.snapshot.zst -c | tar -xvf - -C paste_your_target_dir_here' > dogechain-decompression.log 2>&1 &
     - Or you can put it in a `tmux` background terminal session which can be detached and reattached later.
 
 Step 4: Replacing Data
@@ -62,7 +62,7 @@ Step 4: Replacing Data
 
 - It is recommended to back up the original data:
 
-> Dogechain_DataDir="<paste your dogechain data dir here>"
+> Dogechain_DataDir="paste_your_dogechain_data_dir_here"
 > mv ${Dogechain_DataDir}/blockchain ${Dogechain_DataDir}/blockchain_backup
 >
 > mv ${Dogechain_DataDir}/consensus/metadata ${Dogechain_DataDir}/consensus/metadata_backup
@@ -73,7 +73,7 @@ Step 4: Replacing Data
 
 - Replace the data:
 
-> Dogechain_DataDir="<paste your dogechain data dir here>”
+> Dogechain_DataDir="paste_your_dogechain_data_dir_here”
 >
 > mv blockchain ${Dogechain_DataDir}/blockchain
 >

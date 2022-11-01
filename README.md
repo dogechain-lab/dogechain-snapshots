@@ -63,17 +63,18 @@ Step 4: Replacing Data
 - It is recommended to back up the original data:
 
 > Dogechain_DataDir="paste_your_dogechain_data_dir_here"
-> mv ${Dogechain_DataDir}/blockchain ${Dogechain_DataDir}/blockchain_backup
 >
-> mv ${Dogechain_DataDir}/consensus/metadata ${Dogechain_DataDir}/consensus/metadata_backup
+> mv "${Dogechain_DataDir}/blockchain" "${Dogechain_DataDir}/blockchain_backup"
 >
-> mv ${Dogechain_DataDir}/consensus/snapshots ${Dogechain_DataDir}/consensus/snapshots_backup
+> mv "${Dogechain_DataDir}/consensus/metadata" "${Dogechain_DataDir}/consensus/metadata_backup"
 >
-> mv ${Dogechain_DataDir}/trie ${Dogechain_DataDir}/trie_backup
+> mv "${Dogechain_DataDir}/consensus/snapshots" "${Dogechain_DataDir}/consensus/snapshots_backup"
+>
+> mv "${Dogechain_DataDir}/trie" "${Dogechain_DataDir}/trie_backup"
 
 - Replace the data:
 
-> Dogechain_DataDir="paste_your_dogechain_data_dir_here”
+> Dogechain_DataDir="paste_your_dogechain_data_dir_here"
 >
 > mv blockchain ${Dogechain_DataDir}/blockchain
 >

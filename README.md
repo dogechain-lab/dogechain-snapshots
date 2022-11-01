@@ -15,7 +15,7 @@ It is backward compatible with [dogechain v1.1.4](https://github.com/dogechain-l
 
 ### BitTorrent
 
-[dogechain.2022-10-27T22_09_00-UTC.snapshot.torrent](https://snapshots.dogechain.dog/dogechain.2022-10-27T22_09_00-UTC.snapshot.torrent)
+[dogechain.2022-10-27T22_09_00-UTC.snapshot.torrent](http://snapshots.dogechain.dog/dogechain.2022-10-27T22_09_00-UTC.snapshot.torrent)
 
 ## Usage 
 

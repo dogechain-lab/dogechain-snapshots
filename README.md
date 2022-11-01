@@ -8,7 +8,7 @@ It is backward compatible with [dogechain v1.1.4](https://github.com/dogechain-l
 
 ### Endpoint
 
-[dogechain.2022-10-27T22_09_00-UTC.snapshot.zst](https://snapshots.dogechain.dog/dogechain.2022-10-27T22_09_00-UTC.snapshot.zst)
+[dogechain.2022-10-27T22_09_00-UTC.snapshot.zst](http://snapshots.dogechain.dog/dogechain.2022-10-27T22_09_00-UTC.snapshot.zst)
 
 * *file size: 88.5GB*.
 * *sha1sum: d32185f0d2b1be1bef63b0629a8f4e6bc38343ba*.

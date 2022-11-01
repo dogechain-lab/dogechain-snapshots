@@ -2,9 +2,7 @@
 
 ## Database:
 
-The current database is for [dogechain v1.2.0](https://github.com/dogechain-lab/dogechain/releases/tag/v1.2.0).
-
-It is backward compatible with [dogechain v1.1.4](https://github.com/dogechain-lab/dogechain/releases/tag/v1.1.4), but is not recommended due to slow recovery.
+The current database is for latest [dogechain client](https://github.com/dogechain-lab/dogechain/releases/latest).
 
 ### Endpoint
 

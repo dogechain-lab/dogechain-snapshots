@@ -42,7 +42,9 @@ Step 3: Decompression
 - Decompression takes more than 10 minutes,
 
     - You can run the following command in the background: 
-    - > nohup zstd -d --long=31 dogechain.snapshot.zst -c | tar -xvf - -C <paste your target dir here>  > dogechain-decompression.log 2>&1 &
+    - > mkdir -p <paste your target dir here>
+        >
+        > nohup bash -c 'zstd -d --long=31 dogechain.snapshot.zst -c | tar -xvf - -C <paste your target dir here>' > dogechain-decompression.log 2>&1 &
     - Or you can put it in a `tmux` background terminal session which can be detached and reattached later.
 
 Step 4: Replacing Data

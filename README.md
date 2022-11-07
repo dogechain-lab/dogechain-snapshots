@@ -6,14 +6,18 @@ The current database is for latest [dogechain client](https://github.com/dogecha
 
 ### Endpoint
 
-[dogechain.2022-10-27T22_09_00-UTC.snapshot.zst](http://snapshots.dogechain.dog/dogechain.2022-10-27T22_09_00-UTC.snapshot.zst)
+[dogechain.2022-11-05T06_17_31-UTC.snapshot.zst](http://snapshots.dogechain.dog/dogechain.2022-11-05T06_17_31-UTC.snapshot.zst)
 
 * *file size: 88.5GB*.
-* *sha1sum: d32185f0d2b1be1bef63b0629a8f4e6bc38343ba*.
+* *sha256sum: 7bf0e7c5da5fadcb52814486536dca9eed57858d7009ccf2b7ec3468f2418a6d*.
 
 ### BitTorrent
 
+***It’s an old one, and it would be updated to a new one after BT upload.*** 
+
 [dogechain.2022-10-27T22_09_00-UTC.snapshot.torrent](http://snapshots.dogechain.dog/dogechain.2022-10-27T22_09_00-UTC.snapshot.torrent)
+
+* *sha1sum: d32185f0d2b1be1bef63b0629a8f4e6bc38343ba*
 
 ## Usage 
 
@@ -36,8 +40,8 @@ Step 2: Download
     - > nohup wget -O dogechain.snapshot.zst "paste_snapshot_URL_here" &
     - Or you can put it in a `tmux` background terminal session which can be detached and reattached later.
 
-- Check that its `sha1sum` is consistent with the official one.
-    - > sha1sum dogechain.snapshot.zst > dogechain.snapshot.zst.sha1sum
+- Check that its `sha256sum` is consistent with the official one.
+    - > sha256sum dogechain.snapshot.zst > dogechain.snapshot.zst.sha256sum
     - It will take minutes to finish checksum calculating.
 
 

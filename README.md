@@ -6,10 +6,10 @@ The current database is for latest [dogechain client](https://github.com/dogecha
 
 ### Endpoint
 
-[dogechain.2022-11-17T04_28_58-UTC.snapshot.zst](http://snapshots.dogechain.dog/dogechain.2022-11-17T04_28_58-UTC.snapshot.zst)
+[dogechain.2022-12-01T03_14_43-UTC.snapshot.zst](http://snapshots.dogechain.dog/dogechain.2022-12-01T03_14_43-UTC.snapshot.zst)
 
-* *file size: 445GB*.
-* *sha256sum: 93bc063d2bbf6880a914707a710dfed105ea36bfab97fda3d0a36bfbfb5de53d*.
+* *file size: 486GB*.
+* *sha256sum: 6f4dc695eb0830129e307d1718c503ba740e86ee5c9f3fd9385626312a60960e*.
 
 ### BitTorrent
 

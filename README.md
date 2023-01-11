@@ -41,7 +41,7 @@ Step 3: Decompression
 
 - Decompression:
 
-    -  > zstd -d dogechain.snapshot.zst -c | tar -xvf - -C paste_your_target_dir_here
+    -  > zstd -d dogechain.snapshot.zst -c | tar -xvf - -C "paste_your_target_dir_here"
 - Decompression takes more than 10 minutes,
 
     - You can run the following command in the background: 
@@ -54,7 +54,7 @@ Step 1-3 in one line:
 
 - ***You can combine step 1 to 3 in oneline, but take care of the network interruption, otherwise you have to restart from the very beginning.***
 
-- > wget "paste_snapshot_URL_here" -O - | zstd -d -c - | tar -xvf - -C ./
+- > wget "paste_snapshot_URL_here" -O - | zstd -d -c - | tar -xvf - -C "paste_your_target_dir_here"
 
 Step 4: Replacing Data
 

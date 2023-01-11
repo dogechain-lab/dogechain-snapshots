@@ -6,18 +6,12 @@ The current database is for latest [dogechain client](https://github.com/dogecha
 
 ### Endpoint
 
-[dogechain.2022-12-01T03_14_43-UTC.snapshot.zst](http://snapshots.dogechain.dog/dogechain.2022-12-01T03_14_43-UTC.snapshot.zst)
+snapshot file: [dogechain.2023-01-09T02_45_58-UTC.snapshot.zst](http://snapshots.dogechain.dog/dogechain.2023-01-09T02_45_58-UTC.snapshot.zst)
 
-* *file size: 486GB*.
-* *sha256sum: 6f4dc695eb0830129e307d1718c503ba740e86ee5c9f3fd9385626312a60960e*.
+checksum file: [dogechain.2023-01-09T02_45_58-UTC.snapshot.zst.sha256sum](http://snapshots.dogechain.dog/dogechain.2023-01-09T02_45_58-UTC.snapshot.zst.sha256sum)
 
-### BitTorrent
-
-***It’s an old one, and it would be updated to a new one after BT upload.*** 
-
-[dogechain.2022-10-27T22_09_00-UTC.snapshot.torrent](http://snapshots.dogechain.dog/dogechain.2022-10-27T22_09_00-UTC.snapshot.torrent)
-
-* *sha1sum: d32185f0d2b1be1bef63b0629a8f4e6bc38343ba*
+* *file size: 514GB*.
+* *sha256sum: 2717239aeea4fa6936e60ae12a6c2f61f3028bc4a00bd56e9c4f827bd8a05326*.
 
 ## Usage 
 
@@ -31,8 +25,6 @@ Step 2: Download
 
 - Download: 
     - > wget -O dogechain.snapshot.zst "paste_snapshot_URL_here"
-
-    - Or you can use `BitTorrent` for continuous download.
 
 - Download takes more than 1 hours,
 
@@ -57,6 +49,12 @@ Step 3: Decompression
         >
         > nohup bash -c 'zstd -d dogechain.snapshot.zst -c | tar -xvf - -C paste_your_target_dir_here' > dogechain-decompression.log 2>&1 &
     - Or you can put it in a `tmux` background terminal session which can be detached and reattached later.
+
+Step 1-3 in one line:
+
+- ***You can combine step 1 to 3 in oneline, but take care of the network interruption, otherwise you have to restart from the very beginning.***
+
+- > wget SNAPSHOT_URL -O - | zstd -d -c - | tar -xvf - -C ./
 
 Step 4: Replacing Data
 

@@ -54,7 +54,7 @@ Step 1-3 in one line:
 
 - ***You can combine step 1 to 3 in oneline, but take care of the network interruption, otherwise you have to restart from the very beginning.***
 
-- > wget SNAPSHOT_URL -O - | zstd -d -c - | tar -xvf - -C ./
+- > wget "paste_snapshot_URL_here" -O - | zstd -d -c - | tar -xvf - -C ./
 
 Step 4: Replacing Data
 

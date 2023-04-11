@@ -10,8 +10,8 @@ snapshot file: [dogechain.2023-04-09T11_25_26-UTC.snapshot.zst](http://snapshots
 
 checksum file: [dogechain.2023-04-09T11_25_26-UTC.snapshot.zst.sha256sum](http://snapshots.dogechain.dog/dogechain.2023-04-09T11_25_26-UTC.snapshot.zst.sha256sum)
 
-* *file size: 612GB*.
-* *sha256sum: fa3d1a77816a39d47356ef73af0dac286f0335aebc3ceb5eaefb7223c6145f8d*.
+* *file size: 688GB*.
+* *sha256sum: 2a341cc9b337b7660b05e31f867a0be2333f53f44afa2ec7e84d0cdc79bdc609*.
 
 ## Usage 
 

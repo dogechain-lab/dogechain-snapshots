@@ -6,12 +6,12 @@ The current database is for latest [dogechain client](https://github.com/dogecha
 
 ### Endpoint
 
-snapshot file: [dogechain.2023-04-09T11_25_26-UTC.snapshot.zst](http://snapshots.dogechain.dog/dogechain.2023-04-09T11_25_26-UTC.snapshot.zst)
+snapshot file: [dogechain.2023-05-04T03_15_49-UTC.snapshot.zst](http://snapshots.dogechain.dog/dogechain.2023-05-04T03_15_49-UTC.snapshot.zst)
 
-checksum file: [dogechain.2023-04-09T11_25_26-UTC.snapshot.zst.sha256sum](http://snapshots.dogechain.dog/dogechain.2023-04-09T11_25_26-UTC.snapshot.zst.sha256sum)
+checksum file: [dogechain.2023-05-04T03_15_49-UTC.snapshot.zst.sha256sum](http://snapshots.dogechain.dog/dogechain.2023-05-04T03_15_49-UTC.snapshot.zst.sha256sum)
 
-* *file size: 688GB*.
-* *sha256sum: 2a341cc9b337b7660b05e31f867a0be2333f53f44afa2ec7e84d0cdc79bdc609*.
+* *file size: 710GB*.
+* *sha256sum: 3dbd896b1fd37e85bffc1383a31e16677d29bd66a763dc2d2158c537a638d5c9*.
 
 ## Usage 
 

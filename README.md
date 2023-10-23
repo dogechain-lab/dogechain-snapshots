@@ -15,7 +15,21 @@ checksum file: [dbsc.2023-10-19T02_55_20-UTC.snapshot.zst.sha256sum](http://snap
 * *file size: 1.8TiB*.
 * *sha256sum: 550b93025078c85f2c6043b6cc1ecf7019b797e0bf44b518c5314fd822a311bd*.
 
-## Usage 
+archive file directory tree structure:
+
+```
+${DBSC_DataDir}         # this is Dogechain DBSC client V2 data directory (`--datadir` parameter)
+├── dogechain           # old dogechain data directory
+│   ├── blockchain
+│   └── trie
+└── geth                # new dbsc data directory
+    ├── chaindata
+    └── triecache
+```
+
+## Usage
+
+> *TIPS*: archive file is compressed by `zstd` and archived by `tar`, so you need to install `zstd` and `tar` first.
 
 Step 1: Preparation
 - Make sure your hardware meets the [suggested requirement](https://docs.dogechain.dog/docs/get-started/full-node-deployment).
@@ -44,7 +58,7 @@ Step 3: Decompression
 - Decompression:
 
     -  > zstd -d dbsc.snapshot.zst -c | tar -xvf - -C "paste_your_target_dir_here"
-- Decompression takes more than 10 minutes,
+- Decompression takes more than 2 hours,
 
     - You can run the following command in the background: 
     - > mkdir -p paste_your_target_dir_here

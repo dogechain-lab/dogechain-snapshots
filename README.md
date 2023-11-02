@@ -8,6 +8,28 @@ The current database is for latest [dogechain bsc client](https://github.com/dog
 
 (**Very Important**) The image is only worked on Dogechain DBSC client V2.
 
+#### Pruned Ancient Database
+
+Only works on DBSC client V2 after Hawaii Fork.
+
+snapshot file: [dbsc.2023-11-02T00_33_31-UTC.snapshot.zst](https://snapshots.dogechaindev.com/dbsc.2023-11-02T00_33_31-UTC.snapshot.zst)
+
+checksum file: [dbsc.2023-11-02T00_33_31-UTC.snapshot.zst.sha256sum](https://snapshots.dogechaindev.com/dbsc.2023-11-02T00_33_31-UTC.snapshot.zst.sha256sum)
+
+* *file size: 45.7GiB*.
+* *sha256sum: 681395b1da7cc7ed96a95957da0ce6a65fffb4fee984f3fb7c443effae9656f2*.
+
+archive file directory tree structure:
+
+```
+${DBSC_DataDir}         # this is Dogechain DBSC client V2 data directory (`--datadir` parameter)
+└── geth                # new dbsc data directory
+    ├── chaindata
+    └── triecache
+```
+
+#### Ancient Database
+
 snapshot file: [dbsc.2023-10-19T02_55_20-UTC.snapshot.zst](http://snapshots.dogechain.dog/dbsc.2023-10-19T02_55_20-UTC.snapshot.zst)
 
 checksum file: [dbsc.2023-10-19T02_55_20-UTC.snapshot.zst.sha256sum](http://snapshots.dogechain.dog/dbsc.2023-10-19T02_55_20-UTC.snapshot.zst.sha256sum)

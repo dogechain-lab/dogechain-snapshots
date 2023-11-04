@@ -36,8 +36,8 @@ snapshot file: [dbsc.2023-11-03T06_25_55-UTC.archive.snapshot.tar.zst](https://s
 
 checksum file: [dbsc.2023-11-03T06_25_55-UTC.archive.snapshot.tar.zst.sha256sum](https://snapshots.dogechaindev.com/dbsc.2023-11-03T06_25_55-UTC.archive.snapshot.tar.zst.sha256sum)
 
-* *file size: 1.8TiB*.
-* *sha256sum: 550b93025078c85f2c6043b6cc1ecf7019b797e0bf44b518c5314fd822a311bd*.
+* *file size: 763TiB*.
+* *sha256sum: 3114e7a1105248c425ed4d2ec9e46ebedd1286ddd67f92c1b118bd5d74ca2d49*.
 
 archive file directory tree structure:
 

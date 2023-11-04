@@ -30,9 +30,11 @@ ${DBSC_DataDir}         # this is Dogechain DBSC client V2 data directory (`--da
 
 #### Ancient Database
 
-snapshot file: [dbsc.2023-10-19T02_55_20-UTC.snapshot.zst](http://snapshots.dogechain.dog/dbsc.2023-10-19T02_55_20-UTC.snapshot.zst)
+Only works on DBSC client V2 after Hawaii Fork.
 
-checksum file: [dbsc.2023-10-19T02_55_20-UTC.snapshot.zst.sha256sum](http://snapshots.dogechain.dog/dbsc.2023-10-19T02_55_20-UTC.snapshot.zst.sha256sum)
+snapshot file: [dbsc.2023-11-03T06_25_55-UTC.archive.snapshot.tar.zst](https://snapshots.dogechaindev.com/dbsc.2023-11-03T06_25_55-UTC.archive.snapshot.tar.zst)
+
+checksum file: [dbsc.2023-11-03T06_25_55-UTC.archive.snapshot.tar.zst.sha256sum](https://snapshots.dogechaindev.com/dbsc.2023-11-03T06_25_55-UTC.archive.snapshot.tar.zst.sha256sum)
 
 * *file size: 1.8TiB*.
 * *sha256sum: 550b93025078c85f2c6043b6cc1ecf7019b797e0bf44b518c5314fd822a311bd*.
@@ -41,12 +43,9 @@ archive file directory tree structure:
 
 ```
 ${DBSC_DataDir}         # this is Dogechain DBSC client V2 data directory (`--datadir` parameter)
-├── dogechain           # old dogechain data directory
-│   ├── blockchain
-│   └── trie
 └── geth                # new dbsc data directory
-    ├── chaindata
-    └── triecache
+    ├── chaindata
+    └── triecache
 ```
 
 ## Usage

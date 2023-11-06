@@ -48,6 +48,25 @@ ${DBSC_DataDir}         # this is Dogechain DBSC client V2 data directory (`--da
     └── triecache
 ```
 
+#### Dogechain V1 Finally Archive Database
+
+Only works on Dogechain client V1 before Hawaii Fork.
+
+snapshot file: [dogechain.2023-11-03T13_06_45-UTC.finally.snapshot.tar.zst](https://snapshots.dogechaindev.com/dogechain.2023-11-03T13_06_45-UTC.finally.snapshot.tar.zst)
+
+checksum file: [dogechain.2023-11-03T13_06_45-UTC.finally.snapshot.tar.zst.sha256sum](https://snapshots.dogechaindev.com/dogechain.2023-11-03T13_06_45-UTC.finally.snapshot.tar.zst.sha256sum)
+
+* *file size: 765G*.
+
+* *sha256sum: 39ed6675b740eceab6ee4223db939f76dfffe98333b9d49d304a9da3c5301104*.
+
+```
+${DataDir}
+└── dogechain           # this is Dogechain client data directory (`--data-dir` parameter)
+    ├── blockchain
+    └── trie
+```
+
 ## Usage
 
 > *TIPS*: archive file is compressed by `zstd` and archived by `tar`, so you need to install `zstd` and `tar` first.

@@ -12,12 +12,12 @@ The current database is for latest [dogechain bsc client](https://github.com/dog
 
 Only works on DBSC client V2 after Hawaii Fork.
 
-snapshot file: [dbsc.2024-04-09T02_51_37-UTC.snapshot.tar.zst](https://snapshots.dogechaindev.com/dbsc.2024-04-09T02_51_37-UTC.snapshot.tar.zst)
+snapshot file: [dbsc.2024-06-25T06_42_48-UTC.snapshot.tar.zst](https://snapshots.dogechaindev.com/dbsc.2024-06-25T06_42_48-UTC.snapshot.tar.zst)
 
-checksum file: [dbsc.2024-04-09T02_51_37-UTC.snapshot.tar.zst.sha256sum](https://snapshots.dogechaindev.com/dbsc.2024-04-09T02_51_37-UTC.snapshot.tar.zst.sha256sum)
+checksum file: [dbsc.2024-06-25T06_42_48-UTC.snapshot.tar.zst.sha256sum](https://snapshots.dogechaindev.com/dbsc.2024-06-25T06_42_48-UTC.snapshot.tar.zst.sha256sum)
 
 * *file size: 52GiB*.
-* *sha256sum: 81304872bd07b976bc68305ab1623c06a73c6a99ff78fbf6ec80b925ac5ec2e4*.
+* *sha256sum: 1e4503c7036bcbf1af21aacb9d64d8d5025d433a4338c3b7c9dadd3fbebdba16*.
 
 archive file directory tree structure:
 

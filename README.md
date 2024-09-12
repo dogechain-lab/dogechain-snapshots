@@ -12,12 +12,12 @@ The current database is for latest [dogechain bsc client](https://github.com/dog
 
 Only works on DBSC client V2 after Hawaii Fork.
 
-snapshot file: [dbsc.2024-06-25T06_42_48-UTC.snapshot.tar.zst](https://snapshots.dogechaindev.com/dbsc.2024-06-25T06_42_48-UTC.snapshot.tar.zst)
+snapshot file: [dbsc.2024-09-12T06_46_20-UTC.snapshot.tar.zst](https://snapshots.dogechaindev.com/dbsc.2024-09-12T06_46_20-UTC.snapshot.tar.zst)
 
-checksum file: [dbsc.2024-06-25T06_42_48-UTC.snapshot.tar.zst.sha256sum](https://snapshots.dogechaindev.com/dbsc.2024-06-25T06_42_48-UTC.snapshot.tar.zst.sha256sum)
+checksum file: [dbsc.2024-09-12T06_46_20-UTC.snapshot.tar.zst.sha256sum](https://snapshots.dogechaindev.com/dbsc.2024-09-12T06_46_20-UTC.snapshot.tar.zst.sha256sum)
 
-* *file size: 52GiB*.
-* *sha256sum: 1e4503c7036bcbf1af21aacb9d64d8d5025d433a4338c3b7c9dadd3fbebdba16*.
+* *file size: 53GiB*.
+* *sha256sum: b890cf2faf7e37bf3d5b20b92497addf5e3b722b1a20cc32862bf17cb69c2ece*.
 
 archive file directory tree structure:
 
@@ -36,7 +36,7 @@ snapshot file: [dbsc.2023-11-03T06_25_55-UTC.archive.snapshot.tar.zst](https://s
 
 checksum file: [dbsc.2023-11-03T06_25_55-UTC.archive.snapshot.tar.zst.sha256sum](https://snapshots.dogechaindev.com/dbsc.2023-11-03T06_25_55-UTC.archive.snapshot.tar.zst.sha256sum)
 
-* *file size: 763TiB*.
+* *file size: 763GiB*.
 * *sha256sum: 3114e7a1105248c425ed4d2ec9e46ebedd1286ddd67f92c1b118bd5d74ca2d49*.
 
 archive file directory tree structure:
